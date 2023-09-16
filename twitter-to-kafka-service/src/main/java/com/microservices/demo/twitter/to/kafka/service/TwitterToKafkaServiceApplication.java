@@ -30,6 +30,5 @@ public class TwitterToKafkaServiceApplication implements CommandLineRunner {
         log.info(Arrays.toString(twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[]{})));
         log.info(twitterToKafkaServiceConfigData.getWelcomeMessage());
         streamRunner.start();
-        //Unfortunately twitter recently removed free access to their apis.
     }
 }
