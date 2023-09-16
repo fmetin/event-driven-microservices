@@ -1,0 +1,19 @@
+2023-09-16 23:04:13 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTest]: TwitterToKafkaServiceApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-16 23:04:14 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTest
+2023-09-16 23:04:14 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/fatihmetin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/fatihmetin/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-09-16 23:04:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - Starting TwitterToKafkaServiceApplicationTest using Java 17.0.8.1 with PID 4804 (started by fatihmetin in D:\workspace\microservices-demo\twitter-to-kafka-service)
+2023-09-16 23:04:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2023-09-16 23:04:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - Started TwitterToKafkaServiceApplicationTest in 1.026 seconds (process running for 2.886)
+2023-09-16 23:04:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2023-09-16 23:04:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-09-16 23:04:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2023-09-16 23:04:15 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-09-16 23:04:15 [pool-3-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status wih text adipiscing amet sit Elasticsearch libero libero
